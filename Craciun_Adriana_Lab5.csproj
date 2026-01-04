@@ -8,9 +8,4 @@
     <PackageReference Include="Microsoft.ML" Version="4.0.0" />
     <PackageReference Include="Microsoft.ML.LightGbm" Version="4.0.0" />
   </ItemGroup>
-  <ItemGroup Label="ClassificationModel">
-    <None Include="ClassificationModel.mlnet">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
 </Project>

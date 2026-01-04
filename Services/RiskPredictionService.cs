@@ -1,11 +1,10 @@
 ﻿using Craciun_Adriana_Lab5.Models;
-using Craciun_Adriana_Lab5.Services;
 using System;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
 
-namespace Craciun_Adriana_Lab5.Models
+namespace Craciun_Adriana_Lab5.Services
 {
         public class RiskPredictionService : IRiskPredictionService
         {

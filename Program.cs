@@ -1,7 +1,14 @@
+using Craciun_Adriana_Lab5.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddHttpClient<IRiskPredictionService, RiskPredictionService>(client =>
+{
+    client.BaseAddress = new Uri("https://localhost:62896");
+});
 
 var app = builder.Build();
 
