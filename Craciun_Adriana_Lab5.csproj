@@ -8,4 +8,7 @@
     <PackageReference Include="Microsoft.ML" Version="4.0.0" />
     <PackageReference Include="Microsoft.ML.LightGbm" Version="4.0.0" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Classification\" />
+  </ItemGroup>
 </Project>
